@@ -1,0 +1,7 @@
+# Redirects para SEO
+/blog/* /blog/:splat 200
+/portfolio/* /portfolio/:splat 200
+/servicos/* /servicos/:splat 200
+
+# Redirecionar www para não-www
+http://www.comnectar.manus.space/* https://comnectar.manus.space/:splat 301!
