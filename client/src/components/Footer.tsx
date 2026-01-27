@@ -1,4 +1,4 @@
-import { Mail, MessageCircle, Linkedin, Instagram, MapPin } from 'lucide-react';
+import { Mail, MessageCircle, Linkedin, Share2, MapPin } from 'lucide-react';
 import { CONTACT_DATA } from '@/const/contact';
 
 export default function Footer() {
@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center mb-4">
-              <img src="/logo-comnectar.png" alt="Comnectar" className="h-6 w-auto" />
+              <img src="/logo-comnectar.png" alt="Comnectar" className="h-8 w-auto" />
             </div>
             <p className="text-sm text-muted-foreground">
               Transformando dados em resultados reais para sua agência.
@@ -64,7 +64,7 @@ export default function Footer() {
           </p>
           <div className="flex items-center gap-4">
             <a href={CONTACT_DATA.instagram} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-accent transition-colors">
-              <Instagram className="w-5 h-5" />
+              <Share2 className="w-5 h-5" />
             </a>
             <a href={CONTACT_DATA.linkedin} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-accent transition-colors">
               <Linkedin className="w-5 h-5" />

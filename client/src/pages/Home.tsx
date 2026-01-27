@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, Target, Music, BarChart3, Zap } from 'lucide-react';
+import { ArrowRight, Target, Instagram, BarChart3, Zap } from 'lucide-react';
 import { WHATSAPP_MESSAGES, getWhatsAppLink } from '@/const/contact';
 import { useLocation } from 'wouter';
 import AILab from '@/components/AILab';
@@ -100,7 +100,7 @@ export default function Home() {
 
   // Counter animations
   useEffect(() => {
-    const targets = { revenue: 2300000, roi: 280, years: 12, leads: 1250 };
+    const targets = { revenue: 5200000, roi: 280, years: 15, leads: 1069 };
     const duration = 2000;
     const startTime = Date.now();
 
@@ -137,11 +137,11 @@ export default function Home() {
         <div className="relative z-10 container mx-auto px-4 py-20 text-center">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-              Transformamos <span className="text-gradient">Dados em Resultados</span> Reais
+              Chega de <span className="text-gradient">Postar por Postar</span>
             </h1>
 
             <p className="text-xl md:text-2xl text-muted-foreground mb-12 leading-relaxed">
-              Marketing digital orientado por dados, não por achismos. Tráfego pago, gestão de redes sociais e estratégias que comprovam ROI.
+              Estratégias validadas em 15 anos de mercado internacional, simplificadas para fazer seu negócio crescer de verdade. Sem achismos, apenas lucro.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
@@ -234,7 +234,7 @@ export default function Home() {
                 tag: 'ROI médio: 280%',
               },
               {
-                icon: Music,
+                icon: Instagram,
                 title: 'Gestão de Instagram',
                 description: 'Crescimento orgânico + conteúdo',
                 tag: 'Engajamento +340%',

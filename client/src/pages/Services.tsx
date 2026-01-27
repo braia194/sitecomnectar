@@ -1,4 +1,4 @@
-import { Target, Music, BarChart3, Zap, ArrowRight } from 'lucide-react';
+import { Target, Instagram, BarChart3, Zap, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export default function Services() {
@@ -11,7 +11,7 @@ export default function Services() {
       roi: 'ROI médio: 180%',
     },
     {
-      icon: Music,
+      icon: Instagram,
       title: 'Gestão de Instagram',
       description: 'Crescimento orgânico + conteúdo que engaja e vende.',
       features: ['Crescimento orgânico', 'Conteúdo estratégico', 'Community management', 'Análise de dados'],
