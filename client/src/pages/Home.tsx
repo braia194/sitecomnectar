@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, Target, Instagram, BarChart3, Zap } from 'lucide-react';
+import { ArrowRight, Target, Share2, BarChart3, Zap } from 'lucide-react';
 import { WHATSAPP_MESSAGES, getWhatsAppLink } from '@/const/contact';
 import { useLocation } from 'wouter';
 import AILab from '@/components/AILab';
@@ -234,7 +234,7 @@ export default function Home() {
                 tag: 'ROI médio: 280%',
               },
               {
-                icon: Instagram,
+                icon: Share2,
                 title: 'Gestão de Instagram',
                 description: 'Crescimento orgânico + conteúdo',
                 tag: 'Engajamento +340%',
